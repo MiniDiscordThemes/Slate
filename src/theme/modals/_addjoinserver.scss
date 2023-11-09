@@ -1,6 +1,6 @@
 @use '../assets';
 
-#app-mount .theme-light .root-g14mjS {
+#app-mount .theme-light .root_a28985 {
 	transform: none !important;
 	.container-1Lk8p7 {
 		width: 100%;
@@ -37,7 +37,7 @@
 			}
 		}
 		.content-2hZxGK {
-			&:not(.templatesList-uohY49) .container-x8Y1ix {
+			&:not(.templatesList__38838) .container__73245 {
 				color: var(--text-normal);
 				background: var(--background-light);
 				border: 1px solid var(--base-border);
@@ -52,7 +52,7 @@
 				}
 			}
 		}
-		.container-x8Y1ix {
+		.container__73245 {
 			font-size: var(--font-size);
 			font-weight: var(--font-weight-normal);
 			box-sizing: border-box;
@@ -80,7 +80,7 @@
 				display: none;
 			}
 		}
-		.templatesList-uohY49 {
+		.templatesList__38838 {
 			margin: 0;
 			.optionHeader-27AHfD {
 				font-size: var(--font-size);
@@ -90,7 +90,7 @@
 				margin: var(--spacing) 0;
 				margin-top: var(--spacing-double);
 			}
-			.container-x8Y1ix {
+			.container__73245 {
 				&:first-child {
 					color: var(--white);
 					background-color: rgb(var(--accent));
@@ -147,7 +147,7 @@
 			.nameInput-ph8KMi {
 				margin-top: var(--spacing-double);
 			}
-			.uploadIcon-2wV7s_ {
+			.uploadIcon__6efce {
 				color: var(--text-muted);
 				circle {
 					fill: var(--accent-solid);
@@ -163,19 +163,19 @@
 				}
 			}
 		}
-		.input-m1-Y7Q {
+		.input__0c269 {
 			background: transparent;
 		}
 		.inputForm-3RoxXV {
 			margin-bottom: var(--spacing);
 		}
-		.formTitle-2YQyhj,
+		.formTitle_ba6f05,
 		.h5-2RwDNl {
 			margin-bottom: var(--spacing-third);
 		}
 		.examplesForm-N_P087 {
 			margin-bottom: 0;
-			.sampleLink-5BWNy9 {
+			.sampleLink__771c4 {
 				line-height: var(--line-height);
 				border-radius: var(--border-radius);
 				padding: var(--spacing-third) var(--spacing-half);
@@ -190,7 +190,7 @@
 				user-select: none;
 			}
 		}
-		.templatesList-uohY49 + .footer-31IekZ button {
+		.templatesList__38838 + .footer-31IekZ button {
 			padding: var(--spacing);
 			height: auto;
 			margin: 0;
@@ -200,7 +200,7 @@
 			.footerTitle-3Bslxi {
 				display: none;
 			}
-			button[type='button'].button-f2h6uQ {
+			button[type='button'].button_afdfd9 {
 				font-size: var(--font-size);
 				font-weight: var(--font-weight-normal);
 				cursor: var(--cursor);
@@ -233,17 +233,17 @@
 html.theme-light
 	#app-mount
 	.theme-light
-	.root-g14mjS
-	.container-36u7Lw
+	.root_a28985
+	.container_c64a9f
 	> div[style*='width']
 	> div[style*='width']
-	.templatesList-uohY49
+	.templatesList__38838
 	.itemContainer-1LSFks:not(:first-child),
 html.theme-light
 	#app-mount
 	.theme-light
-	.root-g14mjS
-	.container-36u7Lw
+	.root_a28985
+	.container_c64a9f
 	> div[style*='width']
 	> div[style*='width']
 	.footer-31IekZ
