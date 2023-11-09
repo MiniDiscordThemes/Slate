@@ -1,0 +1,22 @@
+@use '../assets';
+
+#app-mount .layer__2efaa[aria-label='CHANNEL_SETTINGS'] {
+	.customContainer__93c7c {
+		position: relative;
+		div[style='height: 60px;'] {
+			display: none;
+		}
+	}
+	.customScroller_f72801 > div {
+		padding: var(--spacing);
+		margin: 0;
+		max-width: 100%;
+	}
+	.image__98a59 {
+		width: 156px !important;
+		height: 156px !important;
+		margin-bottom: var(--spacing-double);
+		background: var(--text-muted) !important;
+		mask: url(assets.$illustration_7) center/contain no-repeat;
+	}
+}

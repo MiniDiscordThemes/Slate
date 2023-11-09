@@ -1,0 +1,21 @@
+#app-mount {
+	.container_b2ce9c {
+		background: var(--background);
+	}
+	.membersWrap__90226 {
+		width: var(--sidebar-width);
+		border-left: 1px solid var(--base-border);
+		background: var(--background);
+		min-width: unset;
+	}
+	.members__9f47b {
+		background: transparent;
+		width: 100%;
+		& > div {
+			background: transparent;
+		}
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+}

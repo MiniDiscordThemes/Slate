@@ -1,0 +1,127 @@
+html.platform-win[lang='en-US'],
+html.platform-win[lang='en-GB'] {
+	body:not(.oldTitleBarEnabled-D8ppJQ)
+		.container__5c7e7
+		.container__11d72.themed_b152d4
+		.toolbar__88c63 {
+		border: none !important;
+	}
+	body:not(.oldTitleBarEnabled-D8ppJQ) .container__11d72.themed_b152d4 .toolbar__88c63 {
+		.iconWrapper_af9215[aria-label='Inbox'],
+		.iconWrapper_af9215[aria-label='Pinned Messages'],
+		.iconWrapper_af9215[aria-label='Add Friends to DM'],
+		.iconWrapper_af9215[aria-label='New Group DM'],
+		.anchor_c8ddc0 .iconWrapper_af9215 {
+			position: fixed;
+			top: 0;
+			-webkit-app-region: no-drag;
+			height: calc(var(--titlebar-height) - 1px);
+			width: auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 var(--spacing);
+			margin: 0 !important;
+			color: var(--toolbar-text-normal);
+			font-weight: var(--font-weight-normal);
+			font-size: var(--font-size);
+			cursor: default;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			&::after {
+				color: inherit;
+				font-weight: inherit;
+				font-size: inherit;
+				white-space: nowrap;
+				line-height: normal;
+			}
+			&[aria-label='Inbox'] {
+				left: 38px;
+				width: 50px;
+				&::after {
+					content: 'Inbox';
+				}
+			}
+			&[aria-label='Pinned Messages'] {
+				left: 88px;
+				width: 42px;
+				&::after {
+					content: 'Pins';
+				}
+				.iconBadge_cc5031 {
+					top: 4px;
+					right: 4px;
+					z-index: -1;
+					width: 4px;
+					height: 4px;
+				}
+			}
+			&[aria-label='Add Friends to DM'],
+			&[aria-label='New Group DM'] {
+				left: 130px;
+				width: 54px;
+				&::after {
+					content: 'Group';
+				}
+			}
+			&[aria-label='New Group DM'] {
+				left: 88px;
+			}
+			&:hover {
+				background: var(--toolbar-background-hover);
+			}
+			&:active,
+			&.selected_be2668 {
+				background: var(--toolbar-background-active);
+			}
+			svg {
+				display: none;
+			}
+		}
+		.inviteToolbar_e74dc0 {
+			display: block !important;
+		}
+		.inviteToolbar_e74dc0 ~ .anchor_c8ddc0 .iconWrapper_af9215 {
+			left: 142px;
+		}
+		.libraryFilter_c21584 ~ .anchor_c8ddc0 .iconWrapper_af9215 {
+			left: 88px;
+		}
+		.iconWrapper_af9215[aria-label='Add Friends to DM'] ~ .anchor_c8ddc0 .iconWrapper_af9215 {
+			left: 184px;
+		}
+		.anchor_c8ddc0 {
+			display: block !important;
+			&:nth-child(8) .iconWrapper_af9215 {
+				left: 184px;
+			}
+			&:nth-child(6) .iconWrapper_af9215 {
+				left: 130px;
+			}
+			.iconWrapper_af9215 {
+				width: auto;
+				left: 130px;
+				&::after {
+					content: 'Help';
+				}
+			}
+		}
+	}
+}
+
+// Unfocused App
+html.platform-win[lang='en-US'],
+html.platform-win[lang='en-GB'] {
+	&:not(.app-focused)
+		body:not(.oldTitleBarEnabled-D8ppJQ)
+		.container__11d72.themed_b152d4
+		.toolbar__88c63 {
+		.iconWrapper_af9215[aria-label='Inbox'],
+		.iconWrapper_af9215[aria-label='Pinned Messages'],
+		.iconWrapper_af9215[aria-label='Add Friends to DM'],
+		.iconWrapper_af9215[aria-label='New Group DM'],
+		.anchor_c8ddc0 .iconWrapper_af9215 {
+			opacity: 0.6;
+		}
+	}
+}

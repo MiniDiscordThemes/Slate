@@ -1,0 +1,35 @@
+#app-mount .chatContent__5dca8 .divider_b9338f {
+	height: auto;
+	margin: 0;
+	padding: var(--spacing-half) 0;
+	border-top: 1px solid var(--base-border);
+	background: var(--background);
+	top: 0;
+	.content_d67847 {
+		background: transparent;
+		font-size: var(--font-size-xsm);
+		padding: 0 var(--spacing) 0 0;
+	}
+	& + li > .cozy_f5c119.groupStart__56db5 {
+		margin-top: 0;
+	}
+	& + .wrapper__09ecc.cozy_f5c119 {
+		margin-top: 0;
+	}
+	&.isUnread__6f880 {
+		border-bottom: 1px solid var(--base-border);
+		.unreadPill__715fc {
+			position: unset;
+			background: transparent;
+			font-size: var(--font-size-xsm);
+			color: rgb(var(--status-red), 1);
+			padding: 0;
+			svg {
+				display: none;
+			}
+		}
+		& + li > .cozy_f5c119 {
+			margin-top: calc(var(--spacing) - 12px);
+		}
+	}
+}

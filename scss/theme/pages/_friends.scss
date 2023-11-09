@@ -1,0 +1,145 @@
+@use '../assets';
+
+#app-mount .container__5c7e7 {
+	background: var(--background-alt);
+	.peopleColumn__51df3 .wrapper_edb6e0 {
+		width: var(--avatar-size) !important;
+		height: var(--avatar-size) !important;
+	}
+	.topPill__0cdf1 {
+		position: absolute;
+		top: var(--toolbar-height);
+		left: 0;
+		width: calc(100vw - (var(--sidebar-width) * 2.5) - var(--noasw-base));
+		background: var(--background);
+		height: 30px;
+		border-bottom: 1px solid var(--base-border);
+		box-sizing: border-box;
+		.item_e4ca95 {
+			margin: 0;
+			font-size: var(--font-size);
+			font-weight: var(--font-weight-normal);
+			background: transparent !important;
+			border-radius: 0;
+			cursor: var(--cursor);
+			padding: 0 var(--spacing-double);
+			color: var(--text-normal) !important;
+			border-right: 1px solid var(--base-border);
+			flex-grow: 1;
+			.badge_d35eba {
+				margin-left: var(--spacing-half);
+			}
+			&:hover {
+				background: var(--background-light) !important;
+			}
+			&.selected__5711d,
+			&[style*='; color: rgb(67, 181, 129)'] {
+				box-shadow: inset 0 -3px 0px var(--accent-solid);
+				background: transparent !important;
+			}
+		}
+	}
+	@media (max-width: 1200px) {
+		.topPill__0cdf1 {
+			width: calc(100vw - var(--sidebar-width) - var(--noasw-base));
+		}
+	}
+	// List
+	.peopleColumn__51df3 {
+		padding-top: 30px;
+	}
+	.peopleColumn__51df3 .scrollerBase_dc3aa9 {
+		margin-bottom: calc(var(--avatar-size-sm) + var(--spacing-double) - 6px);
+		margin-top: 0;
+		padding-bottom: 0;
+	}
+	.title__10613 {
+		display: none;
+	}
+	.peopleListItem_d14722 {
+		border-top: none;
+		margin: 0;
+		padding: var(--spacing-double);
+		border-radius: 0;
+		cursor: var(--cursor);
+		box-sizing: border-box;
+		&:not(:first-child) {
+			border-bottom: 1px solid var(--base-border);
+		}
+		&.peopleListItem_d14722.active__6b8ff,
+		&.peopleListItem_d14722:hover {
+			background: var(--background-modifier-hover);
+		}
+		&:active {
+			background: var(--background-modifier-active) !important;
+		}
+	}
+	.userInfo__18240 {
+		overflow: visible;
+		width: 100%;
+		flex: 1;
+	}
+	.nameTag__693ff {
+		line-height: var(--line-height);
+	}
+	.username__81ee6 {
+		font-weight: var(--font-weight-normal);
+		line-height: normal;
+		font-size: var(--font-size);
+		color: var(--text-focus);
+		align-items: center;
+	}
+	.discriminator_aef524 {
+		font-size: var(--font-size-sm);
+	}
+	.text__1dddb {
+		font-size: var(--font-size-sm);
+		color: var(--text-muted);
+		line-height: normal;
+	}
+	.subtext__1a662 {
+		color: var(--text-muted);
+	}
+	.actions__93d0e {
+		margin-left: var(--spacing);
+	}
+	.actionButton__23182 {
+		color: var(--text-normal);
+		background: var(--background-light);
+		min-height: var(--input-height);
+		height: var(--input-height);
+		width: var(--input-height);
+		padding: 0;
+		border-radius: var(--button-border-radius);
+		border: 1px solid var(--base-border);
+		cursor: var(--cursor);
+		box-shadow: none !important;
+		svg {
+			width: 16px;
+			height: 16px;
+		}
+		path[d='M4.79805 3C3.80445 3 2.99805 3.8055 2.99805 4.8V15.6C2.99805 16.5936 3.80445 17.4 4.79805 17.4H7.49805V21L11.098 17.4H19.198C20.1925 17.4 20.998 16.5936 20.998 15.6V4.8C20.998 3.8055 20.1925 3 19.198 3H4.79805Z'] {
+			d: path(assets.$path_comment);
+			transform: scale(1.45) translateY(1px);
+		}
+		&:hover {
+			border-color: currentColor;
+		}
+		&:focus {
+			border-color: currentColor;
+			box-shadow: 0 0 0 1px currentColor !important;
+		}
+	}
+
+	// Empty State Messages
+
+	.image__98a59 {
+		margin: 0;
+		width: 175px !important;
+		height: 175px !important;
+		background: url(assets.$illustration_7) center/contain no-repeat !important;
+	}
+	.text__1c14c {
+		display: none;
+	}
+}

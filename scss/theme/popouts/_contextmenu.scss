@@ -1,0 +1,116 @@
+#app-mount {
+	// Native context menus
+	.menu_dc52c6,
+	.submenu_acf564 {
+		background: var(--background);
+		box-shadow: var(--elevation-1);
+		border: 1px solid var(--base-border);
+		border-radius: var(--border-radius);
+		overflow: hidden;
+		.scroller__750f5 {
+			padding: 0;
+			&::-webkit-scrollbar {
+				width: 0;
+			}
+		}
+		.separator__18122 {
+			margin: 0;
+			border-color: var(--base-border);
+		}
+		.groupLabel-16o1xl {
+			font-size: var(--font-size);
+			color: var(--text-muted);
+			font-weight: var(--font-weight-semibold);
+			margin: 0;
+			padding: var(--spacing-half) var(--spacing);
+			box-sizing: border-box;
+			height: 32px;
+			text-transform: none;
+		}
+		.item__183e8 {
+			font-size: var(--font-size);
+			color: var(--text-normal);
+			font-weight: var(--font-weight-semibold);
+			margin: 0;
+			padding: var(--spacing-half) var(--spacing);
+			box-sizing: border-box;
+			border-radius: 0;
+			min-height: 32px;
+			cursor: var(--cursor);
+
+			.labelContainer-2vJzYL {
+				min-height: unset;
+				padding: 0 !important;
+			}
+
+			.checkbox-hADx5o {
+				color: rgb(var(--accent), 1);
+			}
+
+			.labelContainer-2vJzYL {
+				padding: 0 var(--spacing);
+			}
+			&.focused__27621 {
+				background: var(--background-modifier-hover);
+				.checkbox-hADx5o {
+					color: #fff;
+				}
+				.check-3HZJs4 {
+					color: rgb(var(--accent), 1);
+				}
+			}
+			&:active:not(.hideInteraction__2790e) {
+				background: var(--background-modifier-active);
+			}
+			&.colorDanger_eec36d {
+				color: rgb(var(--status-red));
+			}
+			&.colorBrand__471df {
+				color: var(--text-link);
+			}
+			&.hideInteraction__2790e {
+				height: auto;
+				padding: 0;
+			}
+			.iconContainer__829e7 {
+				color: var(--text-muted);
+				margin-left: var(--spacing);
+			}
+
+			// Fix submenu spacing
+			& + .layer_ec16dd {
+				&[style*='left'] {
+					margin-left: -4px;
+				}
+				&[style*='right'] {
+					margin-right: -4px;
+				}
+			}
+		}
+	}
+
+	// Instant reactions
+	.wrapper__2e846 {
+		padding: 0;
+		border-bottom: 1px solid var(--base-border);
+		overflow: hidden;
+		border-radius: var(--border-radius) var(--border-radius) 0 0;
+		display: flex;
+	}
+	.customItem__7173b {
+		flex: 1;
+	}
+	.button__3ecb4 {
+		padding: 0;
+		width: 100%;
+		border-radius: 0;
+		background: transparent;
+		cursor: var(--cursor);
+		&:hover {
+			background: var(--background-modifier-hover);
+		}
+		&:active {
+			background: var(--background-modifier-active);
+		}
+	}
+}

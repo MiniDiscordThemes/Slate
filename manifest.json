@@ -1,0 +1,34 @@
+{
+  "id": "net.saltssaumure.Slate",
+  "name": "Slate",
+  "description": "An optimized, consistent, and functional theme for Discord based on GitHub's design language.",
+  "author": [
+    {
+      "name": "Saltssaumure",
+      "discordID": "134142022092062720",
+      "github": "Saltssaumure"
+    },
+    {
+      "name": "Gibbu",
+      "discordID": "174868361040232448",
+      "github": "Gibbu"
+    },
+    {
+      "name": "Tropical",
+      "discordID": "254362351170617345",
+      "github": "Tropix126"
+    }
+  ],
+  "version": "1.2.0",
+  "updater": {
+    "type": "store",
+    "id": "net.saltssaumure.Slate"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "scss/slate.scss",
+  "source": "https://github.com/MiniDiscordThemes/Template",
+  "image": [
+    "https://cdn.discordapp.com/attachments/946226984005025835/1140494116451532810/template1.png"
+  ]
+}

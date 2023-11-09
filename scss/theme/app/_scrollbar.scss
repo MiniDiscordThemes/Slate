@@ -1,0 +1,52 @@
+#app-mount {
+	.messagesPopout__22763,
+	.listWrapper__7a5c9 .scroller-2FKFPG,
+	.contentWrapper__321ed .scroller-2FKFPG,
+	.container-1D34oG .scrollerBase_dc3aa9,
+	.scroller__52ae7,
+	.scroller,
+	.infoScroller-3EYYns,
+	.listScroller-2_vlfo,
+	.scroller__1f96e,
+	.rolesList-22qj2L,
+	.templatesList__38838,
+	.autocompleteScroller-13i2_Y,
+	.keybindGroup_bd18f5,
+	.regionSelectModalOptions-2TWQOB,
+	.scroller-1jBQYo {
+		&::-webkit-scrollbar {
+			width: 4px;
+			display: none;
+			background: transparent !important;
+		}
+		&::-webkit-scrollbar-track {
+			margin: 0;
+		}
+		&::-webkit-scrollbar-track-piece {
+			background: transparent;
+			border-color: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			background-color: var(--scrollbar-background);
+			border-radius: 0;
+			border-radius: var(--border-radius);
+			border: none;
+			&:hover {
+				background-color: var(--scrollbar-background-hover);
+			}
+			&:active {
+				background-color: var(--scrollbar-background-active);
+			}
+		}
+		&::-webkit-scrollbar-button,
+		&::-webkit-scrollbar-corner {
+			display: none !important;
+		}
+		&:hover {
+			overflow: overlay !important;
+			&::-webkit-scrollbar {
+				display: block;
+			}
+		}
+	}
+}

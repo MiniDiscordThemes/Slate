@@ -1,0 +1,159 @@
+@use '../assets';
+
+#app-mount .privateChannels__93473 {
+	overflow: visible;
+	width: var(--sidebar-width);
+	background: var(--background);
+
+	.content-2a4AW9 {
+		margin-top: var(--toolbar-height);
+	}
+
+	// Search Header
+	.searchBar_e4ea2a {
+		background: var(--toolbar-background);
+		border-bottom: 1px solid var(--toolbar-border);
+		border-right: 1px solid var(--toolbar-border);
+		height: var(--toolbar-height);
+		box-shadow: none;
+		position: absolute;
+		left: calc(var(--container) * -1);
+		top: calc(var(--toolbar-height) * -1);
+		width: calc(var(--sidebar-width) + var(--noasw-channel-header));
+		box-sizing: border-box;
+		padding: 0 var(--spacing);
+		button {
+			box-sizing: border-box;
+			background-color: var(--toolbar-search-background);
+			border: 1px solid var(--toolbar-border);
+			border-radius: var(--border-radius);
+			height: var(--input-height);
+			transform: translateZ(0);
+			font-size: 0;
+			box-shadow: none;
+			position: relative;
+			cursor: text;
+			width: 100%;
+			font-weight: var(--font-weight-normal);
+			color: var(--toolbar-text-muted);
+			padding: 0 var(--spacing-half);
+			line-height: normal;
+			&::before {
+				content: 'Where would you like to go?';
+				font-size: var(--font-size);
+			}
+		}
+	}
+
+	// Direct messages header
+	.privateChannelsHeaderContainer_ddcec6 {
+		padding: var(--spacing);
+		height: auto;
+		color: var(--text-normal);
+		font-size: 12px;
+		text-transform: none;
+	}
+	.privateChannelRecipientsInviteButtonIcon__1e8fc {
+		display: none;
+	}
+	.scroller__4b984 {
+		background: var(--background);
+		div[style*='height: 8px'] {
+			display: none;
+		}
+	}
+
+	// Main channel entries
+	.container__8759a {
+		border-radius: 0;
+	}
+	.link__2e8e1 {
+		cursor: var(--cursor);
+	}
+	.channel_c21703 {
+		margin: 0;
+		max-width: 100%;
+		padding: 0;
+		.children_c027c5 {
+			margin-left: var(--spacing-half);
+		}
+		.layout__59abc {
+			border-radius: 0;
+			padding: 0 var(--spacing);
+			cursor: var(--cursor);
+		}
+		.name__02dbd {
+			font-size: var(--font-size);
+			font-weight: var(--font-weight-normal);
+			color: var(--text-normal);
+			line-height: normal;
+		}
+		.avatar__7bd22 {
+			margin-right: var(--spacing);
+		}
+		.activityText__84949,
+		.subText_ed6eed {
+			font-size: var(--font-size-sm);
+			font-weight: var(--font-weight-bold);
+			color: var(--text-muted);
+		}
+		.selected_d94cf9 {
+			color: var(--white);
+			background: rgb(var(--accent));
+			.closeButton__8f1fd {
+				display: block;
+				background: var(--white);
+			}
+			.activityText__84949,
+			.name__02dbd,
+			.subText_ed6eed {
+				color: var(--white) !important;
+			}
+		}
+	}
+	.closeButton__8f1fd {
+		z-index: 10;
+		opacity: 1;
+		background: var(--text-muted);
+		mask: url(assets.$icon_close) center/11px no-repeat;
+		cursor: var(--cursor);
+		path {
+			display: none;
+		}
+		&:hover {
+			background: var(--text-normal);
+		}
+	}
+	.wrapper_edb6e0 {
+		width: 26px !important;
+		height: 26px !important;
+		&::before {
+			right: -190px;
+		}
+		&::after {
+			right: -190px;
+		}
+	}
+	&:hover .wrapper_edb6e0::before {
+		background: linear-gradient(90deg, transparent, var(--background-modifier-hover) 50%);
+	}
+	&:active .wrapper_edb6e0::before {
+		background: linear-gradient(90deg, transparent, var(--background-modifier-active) 50%);
+	}
+
+	// Empty DMs List
+	.empty__086ba {
+		display: none;
+	}
+}
+
+// Light mode optimization
+.theme-light #app-mount .privateChannels__93473 .channel_c21703.selected__9800b {
+	color: #fff;
+
+	.activityText__84949,
+	.name__02dbd,
+	.subText_ed6eed {
+		color: #fff !important;
+	}
+}

@@ -1,0 +1,192 @@
+@use '../assets';
+
+#app-mount {
+	.nowPlayingColumn_f5023f {
+		border-left: 1px solid var(--base-border);
+		background: var(--background);
+		min-width: unset;
+		max-width: unset;
+		flex: 0 0 calc(var(--sidebar-width) * 1.5);
+		width: calc(var(--sidebar-width) * 1.5);
+	}
+	.container__0a6a9 {
+		background: transparent;
+	}
+	.scroller__00e7e {
+		height: calc(100vh - var(--titlebar-height) - var(--toolbar-height));
+		padding: 0 !important;
+		margin: 0;
+		border: none;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+	}
+	.header__123bf {
+		font-weight: var(--font-weight-normal);
+		font-size: var(--font-size);
+		margin: 0;
+		height: 29px;
+		display: flex;
+		align-items: center;
+		padding: 0 var(--spacing);
+		border-bottom: 1px solid var(--base-border);
+	}
+	.consentCard-1iSxB_ {
+		background: var(--background);
+		border-radius: 0;
+		padding: var(--spacing-double);
+		border-bottom: 1px solid var(--base-border);
+		margin: 0;
+		.header_f0a693 {
+			margin-bottom: var(--spacing-half);
+			font-weight: var(--font-weight-semibold);
+		}
+		button {
+			margin-left: 0;
+		}
+	}
+	.activitySection_b322be {
+		grid-template-columns: minmax(32px, 48px) minmax(20px, auto);
+		grid-gap: var(--spacing);
+		img {
+			width: 48px;
+			height: 48px;
+		}
+	}
+	.emptyCard_f82dde {
+		border-radius: 0;
+		background: transparent;
+		padding: var(--spacing-double);
+		.emptyText_dd45f0 {
+			font-size: var(--font-size);
+			color: var(--text-muted);
+		}
+		.base-21yXnu::before {
+			content: '';
+			width: 100px;
+			height: 100px;
+			display: block;
+			background: var(--text-muted);
+			margin-bottom: var(--spacing-double);
+			mask: url(assets.$illustration_7) center/contain no-repeat;
+		}
+	}
+	.header-13Cw0- {
+		display: flex;
+		align-items: center;
+		padding: var(--spacing);
+		font-size: var(--font-size);
+		color: var(--text-normal);
+		font-weight: var(--font-weight-semibold);
+		border-bottom: 1px solid var(--base-border);
+		height: 30px;
+		width: 100%;
+		text-transform: none;
+		box-sizing: border-box;
+	}
+	.headerFull-1dyyvV {
+		grid-template-columns: var(--avatar-size) minmax(20px, auto) 24px;
+		height: auto;
+		grid-gap: var(--spacing);
+	}
+	.wrapper__6e669 {
+		background: transparent;
+		border-radius: 0;
+		padding: var(--spacing);
+		margin: 0;
+		cursor: var(--cursor);
+		border: none;
+		&:not(:first-child) {
+			border-bottom: 1px solid var(--base-border);
+		}
+		&:hover {
+			background: var(--background-modifier-hover);
+		}
+		&.active__76f42 {
+			background: rgb(var(--accent));
+			.colorHeaderSecondary-g5teka,
+			.size16-rrJ6ag {
+				color: var(--white);
+			}
+		}
+		&:last-child {
+			border-bottom: 1px solid var(--base-border);
+		}
+	}
+	.inset__0bfb3 {
+		background: var(--background-dark);
+		border: 1px solid var(--base-border);
+		margin-top: var(--spacing);
+		border-radius: var(--border-radius);
+	}
+	.section_efc22d {
+		background: transparent;
+	}
+	.separator_c2ecc6 {
+		background: var(--base-border);
+	}
+	.section_efc22d {
+		padding: var(--spacing-half);
+	}
+	.itemCard__1f162 {
+		.base-21yXnu {
+			font-size: var(--font-size);
+			line-height: var(--line-height);
+		}
+		.colorHeaderSecondary-g5teka,
+		.colorStandard-21JIj7 {
+			font-size: var(--font-size-sm);
+			color: var(--text-muted);
+			line-height: var(--line-height);
+			strong {
+				color: var(--text-normal);
+			}
+		}
+		.sectionTitle-2AR_TY {
+			color: var(--text-normal);
+		}
+	}
+	.tabBody-3YRQ8W::before {
+		content: none;
+	}
+	.voiceSection__607fc {
+		grid-gap: var(--spacing);
+	}
+	.voiceSectionAssets_d7306c {
+		border-radius: 0;
+		width: var(--avatar-size);
+		height: var(--avatar-size);
+	}
+	.voiceSectionGuildImage_ca8a0f,
+	.voiceSectionNoGuildImageWrapper__2cbb8 {
+		width: var(--avatar-size);
+		height: var(--avatar-size);
+		mask: none;
+		mask: none;
+		border-radius: var(--border-radius);
+	}
+	.voiceSectionIconWrapper_c50254 {
+		bottom: -1px;
+		right: -1px;
+		background: var(--background-dark);
+		border-radius: var(--border-radius) 0 0;
+	}
+	.voiceSectionDetails_b9919a {
+		cursor: var(--cursor);
+	}
+	.partyMember__8c6e6 {
+		height: var(--avatar-size-sm) !important;
+		width: var(--avatar-size-sm) !important;
+		mask: none;
+	}
+	.partyMemberOverflow-lXnzvu {
+		height: var(--avatar-size-sm);
+		width: var(--avatar-size-sm);
+		min-width: auto;
+		padding: 0;
+		font-size: var(--font-size-sm);
+		background: var(--background);
+		box-shadow: inset 0 0 0 1px var(--base-border);
+		border-radius: var(--border-radius);
+	}
+}

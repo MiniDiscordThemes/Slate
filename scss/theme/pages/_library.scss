@@ -1,0 +1,65 @@
+#app-mount .container_c64a9f {
+	background: var(--background-alt);
+	.container__0eeef::before {
+		content: none;
+	}
+	.children__32014 {
+		padding-right: 0;
+		&:hover {
+			background: transparent;
+		}
+	}
+	.scroller__311cd {
+		background: var(--background-alt);
+		overflow: hidden;
+		&::-webkit-scrollbar {
+			width: 12px;
+			display: none;
+			background: transparent;
+			border-left: 1px solid var(--base-border);
+		}
+		&::-webkit-scrollbar-track-piece {
+			background: transparent;
+			border-color: transparent;
+		}
+		&::-webkit-scrollbar-thumb {
+			border-style: solid;
+			border-color: transparent;
+			border-left-width: 4px;
+			border-right-width: 3px;
+			background-clip: padding-box;
+			background-color: var(--scrollbar-background);
+		}
+		&:hover {
+			overflow: overlay;
+			&::-webkit-scrollbar {
+				display: block;
+			}
+		}
+	}
+	.searchBar__1cca4 {
+		background: var(--background);
+		border: 1px solid var(--base-border);
+	}
+	.header_b5ab54 {
+		padding: var(--spacing);
+		background: var(--background-alt);
+		border-bottom-color: var(--base-border);
+		width: 100%;
+	}
+	.rowWrapper__2d725 {
+		margin: 0;
+		border-bottom: 1px solid var(--base-border);
+		border-radius: 0;
+		padding-bottom: 0;
+		.bodyCell__4af8c {
+			padding: var(--spacing);
+		}
+		&:hover {
+			background: var(--background-light);
+		}
+	}
+	.scroller__9c698 {
+		background-color: var(--background-alt);
+	}
+}
