@@ -11,7 +11,8 @@
 
 	// BD card info
 	#Slate-card .bd-description-wrap::after {
-		content: 'Latest file version: ' var(--slate-file-version) '\A Latest base.css version: 'var(--slate-base-version);
+		content: 'Latest file version: ' var(--slate-file-version) '\A Latest base.css version: '
+			var(--slate-base-version);
 		white-space: pre-wrap;
 		display: block;
 		line-height: var(--line-height);

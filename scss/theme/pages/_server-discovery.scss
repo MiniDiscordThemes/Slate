@@ -1,7 +1,9 @@
 #app-mount {
 	.content__4bf10 {
 		.sidebar_ded4b5
-			.scrollerBase_dc3aa9[style='overflow: hidden scroll; padding-right: 0px;']:not([id*='channels']) {
+			.scrollerBase_dc3aa9[style='overflow: hidden scroll; padding-right: 0px;']:not(
+				[id*='channels']
+			) {
 			border-right: 1px solid var(--base-border);
 			margin-top: calc(var(--toolbar-height) / -1);
 			&::-webkit-scrollbar {
