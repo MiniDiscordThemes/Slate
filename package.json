@@ -1,19 +1,26 @@
 {
-	"name": "slate",
-	"version": "1.1.0",
-	"description": "An optimized, consistent, and functional theme for Discord based on GitHub's design language.",
-	"repository": "https://github.com/DiscordStyles/Slate.git",
-	"license": "MIT",
-	"private": false,
-	"type": "module",
-	"scripts": {
-		"dev": "bd-scss dev",
-		"build": "bd-scss build"
-	},
-	"dependencies": {
-		"bd-scss": "^2.0.12"
-	},
-	"devDependencies": {
-		"prettier": "^2.7.1"
-	}
+  "name": "slate-discord-theme",
+  "version": "1.2.0",
+  "description": "An optimized, consistent, and functional theme for Discord based on GitHub's design language.",
+  "repository": "github:MiniDiscordThemes/Slate",
+  "author": "Saltssaumure <themes@saltssaumure.net>",
+  "contributors": [],
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bd-scss dev",
+    "dev:rp": "replugged build theme --watch",
+    "dev:vc": "bd-scss dev:vc",
+    "bd": "bd-scss build",
+    "rp": "replugged bundle theme",
+    "lint": "prettier ./scss --check",
+    "lint:fix": "prettier ./scss --write --log-level warn",
+    "release": "replugged release"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "replugged": "^4.7.5",
+    "salt-bd-scss": "^1.1.0"
+  }
 }
