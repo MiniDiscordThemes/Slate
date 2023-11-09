@@ -1,10 +1,10 @@
 #app-mount {
-	.userPopoutOuter-3AVBmJ {
+	.userPopoutOuter_d739b2 {
 		border: 1px solid var(--base-border);
 		box-shadow: var(--elevation-1);
 		border-radius: var(--border-radius);
 		padding: 0;
-		.avatarWrapper-3y0KZ1 {
+		.avatarWrapper_f77579 {
 			border-radius: 0;
 		}
 		.bannerSVGWrapper-qc0szY foreignObject {
@@ -17,7 +17,7 @@
 			margin-top: var(--spacing);
 		}
 	}
-	.avatarHint-2g3Mcd {
+	.avatarHint__8e5b9 {
 		foreignObject {
 			mask: none;
 		}
@@ -35,7 +35,7 @@
 		background: transparent;
 		margin: 0;
 	}
-	.avatarWrapper-3y0KZ1 {
+	.avatarWrapper_f77579 {
 		left: var(--spacing);
 	}
 	.section-3FmfOT {
@@ -68,14 +68,14 @@
 		display: none;
 	}
 
-	.roles-3zC7MX {
+	.roles__74a2b {
 		margin: 0;
 		padding: 0 var(--spacing) var(--spacing);
 		display: flex;
 		gap: var(--spacing-half);
 	}
 	.member-perm,
-	.role-2TIOKu {
+	.role__631a3 {
 		border: none;
 		position: relative;
 		border-radius: 50px;
@@ -85,25 +85,25 @@
 		height: auto;
 		height: 22px;
 		background: transparent;
-		&:hover .roleCircle-3TFUOr,
-		&:active .roleCircle-3TFUOr {
+		&:hover .roleCircle_bae511,
+		&:active .roleCircle_bae511 {
 			opacity: 1;
 			box-sizing: border-box;
-			.roleRemoveIcon-387wKV {
+			.roleRemoveIcon__7f63d {
 				opacity: 1;
 			}
 		}
 
-		.roleRemoveButton-17oXnT {
+		.roleRemoveButton__737f2 {
 			position: absolute;
 			inset: 0;
-			&[aria-hidden='false']:hover ~ .roleName-2ZJJYR {
+			&[aria-hidden='false']:hover ~ .roleName_d19d33 {
 				opacity: 0;
 				pointer-events: none;
 			}
 		}
 		.perm-circle,
-		.roleCircle-3TFUOr {
+		.roleCircle_bae511 {
 			margin: 0;
 			border-radius: var(--border-radius);
 			position: absolute;
@@ -113,7 +113,7 @@
 			height: 100%;
 			opacity: 0.75;
 			filter: none;
-			.roleRemoveIcon-387wKV {
+			.roleRemoveIcon__7f63d {
 				position: relative;
 				z-index: 10;
 				background: inherit;
@@ -131,7 +131,7 @@
 			}
 		}
 		.member-perm .name,
-		.roleName-2ZJJYR {
+		.roleName_d19d33 {
 			overflow: hidden;
 			line-height: normal;
 			position: relative;
@@ -142,7 +142,7 @@
 			font-weight: var(--font-weight-normal);
 		}
 	}
-	.actionButton-1YKTU0 {
+	.actionButton__81eaa {
 		position: absolute;
 		top: calc(var(--spacing-triple) / -1 - var(--spacing-half) - 2px);
 		right: 0;
@@ -155,7 +155,7 @@
 		color: var(--text-muted);
 		cursor: var(--cursor);
 		height: 26px;
-		.addButtonIcon-3HZ_2f {
+		.addButtonIcon__6a05a {
 			height: var(--font-size);
 			width: var(--font-size);
 			cursor: var(--cursor);
@@ -165,7 +165,7 @@
 			color: var(--text-normal);
 		}
 	}
-	.profileBadges-31rDHI {
+	.profileBadges__7a7cb {
 		padding: 0;
 		top: var(--spacing);
 		right: var(--spacing);
